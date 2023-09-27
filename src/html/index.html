@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- permet d'ajusté automatiquement la taille de la page a celle de l'écran -->
+    <title>Project Epytodo TKM</title>
+    <link rel="stylesheet" href="css/style/style_index.css">
+    <link rel="stylesheet" href="css/style/style_button.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo" onclick="RedirectionHome()">Epytodo</h2>
+        <nav class="navigation">
+            <button class="btnLogin" onclick="RedirectionLogin()">Login</button>
+            <button class="btnRegister" onclick="RedirectionRegister()">Register</button>
+        </nav>
+    </header>
+    <div class="title_box">
+        <div class="Hello">
+            <h2>Welcome to the Epytodo main-page</h2>
+            <h3>Projet fait par: Tom, Kilian, Marc</h3>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script>
+        function RedirectionLogin() {
+            window.location.href = "http://localhost:3000/login";
+        }
+        function RedirectionRegister() {
+            window.location.href = "http://localhost:3000/register";
+        }
+        function RedirectionHome() {
+            window.location.href = "http://localhost:3000/";
+        }
+    </script>
+</body>
+
+</html>

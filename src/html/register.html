@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- permet d'ajusté automatiquement la taille de la page a celle de l'écran -->
+    <title>Project Epytodo TKM</title>
+    <link rel="stylesheet" href="css/style/style_register.css">
+    <link rel="stylesheet" href="css/style/style_button.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo" onclick="RedirectionHome()">Epytodo</h2>
+        <nav class="navigation">
+            <button class="btnLogin" onclick="RedirectionLogin()">Login</button>
+            <button class="btnRegister" onclick="RedirectionRegister()">Register</button>
+        </nav>
+    </header>
+
+    <div class="register_box">
+        <div class="form_register_box">
+            <h2>Register</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </span>
+                    <input type="write" required>
+                    <label>Name</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </span>
+                    <input type="write" required>
+                    <label>First Name</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+                    <input type="write" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="btn_register">Register</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script>
+        function RedirectionLogin() {
+            window.location.href = "http://localhost:3000/login";
+        }
+        function RedirectionRegister() {
+            window.location.href = "http://localhost:3000/register";
+        }
+        function RedirectionHome() {
+            window.location.href = "http://localhost:3000/";
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

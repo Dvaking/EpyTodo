@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+/*   feuille de style CSS de la police spécifique Poppins */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*
+    position: fait que l'élément reste sur place
+    top, left: place au coin superieure gauche de la page
+    padding: mets un espace de 20 px en haut et en bas
+            et 100px du bord
+    justify: repartie également les éléments avec un space entre eux
+    z-index: donne la priorité d'affichage
+*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: auto;
+    background: url('../image/background_sun_up.jpg'), no-repeat;
+    background-size: cover;
+}
+
+.title_box {
+    margin-top: 400px;
+    position: relative;
+    width: 800px;
+    height: 100px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hello h2 {
+    font-size: 2em;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    z-index: 80;
+}
+
+.Hello h3 {
+    font-size: 1.3em;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    z-index: 80;
+}

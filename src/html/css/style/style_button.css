@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins'); /*   feuille de style CSS de la police spécifique Poppins */
+
+
+/*
+    outline: supprime le contour de surbrillance par defaut
+    em -> unité de mesure relative
+    cursor: transforme le cursor en main au dessus du bouton
+    transition: la vitesse de passage a normal -> survolé
+    hover: pour quand le bouton est survoléouai
+*/
+
+.navigation .btnLogin {
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .btnLogin:hover {
+    background: #fff;
+    color: #161616;
+}
+
+.navigation .btnRegister {
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .btnRegister:hover {
+    background: #fff;
+    color: #161616;
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
