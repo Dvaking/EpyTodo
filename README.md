@@ -22,4 +22,5 @@ easily! We will mainly **focus on the “backend”** side of the project, but f
 
 
 [![HTML](https://img.shields.io/badge/HTML-Dvaking?style=for-the-badge&color=red&link=https%3A%2F%2Fdeveloper.mozilla.org%2Ffr%2Fdocs%2FWeb%2FHTML)
-](https://developer.mozilla.org/fr/docs/Web/HTML)
+](https://developer.mozilla.org/fr/docs/Web/HTML)[![CSS](https://img.shields.io/badge/CSS-Dvaking?style=for-the-badge&color=blue&link=https%3A%2F%2Fdeveloper.mozilla.org%2Ffr%2Fdocs%2FWeb%2FCSS)](https://developer.mozilla.org/fr/docs/Web/CSS)
+
